@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> Simple E-commerce Website </title>
+<link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <h1> My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Products">
+            <h2> Featured Products</h2>
+            <div class = "Products">
+                <img src="product.jpg" alt="product 1">
+                <h3>Product 1</h3>
+                <p>£10.00</p>
+                <button> Add to cart</button>
+
+                <div class= "product">
+                    <img src = "product.jpg" alt="product2">
+                    <h3> Product 2</h3>
+                    <p>£20.00</p>
+                    <button>Add to cart</button>
+                    </div>
+            </div>
+        </section>
+        <section id="About">
+            <h2>About us</h2>
+            <p>Welcome to Our shop! We offer the best priced products at competitive prices.</p>
+        </section>
+           
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Email: myecom12@shop.com</p>
+            </section>
+       
+    </main>
+    <footer>
+
+        <p> &copy; 2025 my E-commerce Shop</p>
+    </footer>
+</body>
+</html>
