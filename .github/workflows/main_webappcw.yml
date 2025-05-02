@@ -65,4 +65,4 @@ jobs:
           app-name: 'WebAppCW'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_430CE6DE7ACE400C942FD4B15C1C276F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFEFD4F1798B420E8B9BB85691702609 }}
